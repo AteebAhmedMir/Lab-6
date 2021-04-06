@@ -1,0 +1,11 @@
+public class RunnerCal {
+    public static void main(String[] args) {
+        System.out.println("tan45= "+Calculator.tan(45));
+        System.out.println("cos60= "+Calculator.cos(60));
+        System.out.println("sin90= "+Calculator.sin(90));
+        System.out.println("Sum of two: "+Calculator.sum(Calculator.cos(30), Calculator.tan(45)));
+        
+        
+        
+    }
+}

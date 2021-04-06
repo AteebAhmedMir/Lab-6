@@ -1,0 +1,14 @@
+public class RunnerExp {
+    public static void main(String[] args) {
+        
+        Experiment E1 = new Experiment();
+        Experiment E2 = new Experiment();
+        Experiment E3 = new Experiment();
+        Experiment E4 = new Experiment();
+        
+        E2.destroy();
+        
+        System.out.println("The number of objects created are =" + Experiment.objc);
+    }
+    
+}

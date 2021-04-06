@@ -1,0 +1,15 @@
+public class Runner_SA {
+    public static void main(String[] args) {
+        
+        SavingsAccount Saver1 = new SavingsAccount(3, 2000.00);
+        SavingsAccount Saver2 = new SavingsAccount(3000.00);
+        
+        SavingsAccount.modifyInterestRate(4);
+        
+        Saver1.display("saver1");
+        Saver2.display("saver2");
+        
+        Saver1.display("saver1");
+        Saver2.display("saver2");
+    }
+}

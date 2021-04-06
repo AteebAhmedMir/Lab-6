@@ -1,0 +1,13 @@
+
+public class Experiment {
+    
+    public static int objc = 0;
+    
+    Experiment(){
+        objc++;
+    }
+    
+    public void destroy(){
+        objc--;
+    }
+}
